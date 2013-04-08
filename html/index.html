@@ -59,8 +59,8 @@
                         <div class="nav-collapse collapse" id="main-menu">
                             <ul class="nav">
                                 <li class="active"><a href="#home">Home</a></li>
-                                <li><a href="#video">Video</a></li>
-                                <li><a href="#facebook">Facebook</a></li>
+                                <li><a href="#albums">Albums</a></li>
+                                <li><a href="#Concerts">Concerts</a></li>
                             </ul>
                         </div> <!-- collapse -->
                     </div>
@@ -75,26 +75,43 @@
                     </div>
                     <div class="span8" id="video">
                         <h1>Video</h1>
-                        <iframe class="span8" width="560" height="315" 
+                        <iframe class="span7" width="560" height="315" 
                         src="http://www.youtube.com/embed/ztHHcWeeMzg?list=PLkQ3EnKC34QrRvHjwhLwLuEMKMorzMf-U"
                         frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div> <!-- /row of Home & Video -->
-                 <div class="row">
-                    <div class="span4" id="facebook">
+                <div class="row">
+                    <div class="span6" id="facebook">
                         <h1>Facebook</h1>
                         <p class="lead">Friendz</p>
                         <p class="lead">달을 품은 토끼(Dal Pum)</p>
                     </div>
-                    <div class="span4" id="twitter">
+                    <div class="span6" id="twitter">
                         <h1>Twitter</h1>
+                        <a class="twitter-timeline" href="https://twitter.com/friendznet"
+                        data-widget-id="321187945866465280">Tweets by @friendznet</a>
+                        <script>
+                            !function(d,s,id) {
+                                var js, fjs=d.getElementsByTagName(s)[0];
+                                if(!d.getElementById(id)) {
+                                    js=d.createElement(s);
+                                    js.id=id;
+                                    js.src="http://platform.twitter.com/widgets.js";
+                                    fjs.parentNode.insertBefore(js,fjs);
+                                }
+                            }(document,"script","twitter-wjs");
+                        </script>
                     </div>
-                    <div class="span4" id="links">
+                </div> <!-- row of Facebook & Twitter -->
+                <div class="row">
+                     <div class="span4" id="links">
                         <h1>Links</h1>
-                        <a href=http://www.friendz.net>Friendz.net</a>
+                        <a href=http://www.friendz.net>Friendz.net</a><br />
+                        <a href=http://www.j-friendz.net>J-Friendz</a><br />
+                        <a href=https://itunes.apple.com/kr/podcast/dal-eul-pum-eun-tokki/id508408747>달을 품은 토끼 Podcast</a><br />
                     </div>
                 </div>
-            </div> <!-- /container Facebook & Twitter -->
+            </div>
         </div>
 
         <div id="footer">
@@ -112,6 +129,7 @@
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="../js/jquery-1.9.1.js"></script>
         <script src="../js/bootstrap.js"></script>
+
     </body>
 </html>
 
