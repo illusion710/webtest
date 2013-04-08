@@ -43,31 +43,42 @@
         href="../assets/ico/apple-touch-icon-57-precomposed.png">
         -->
     </head>
-    <body class="preview">
+    <body class="preview" id="home">
         <div id ="wrap">
             <div class="navbar navbar-fixed-top">
                 <div class="navbar-inner">
                     <div class="container">
-                        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
-                        </button>
-                        <a class="brand" href="#">J Rabbit</a>
-                        <div class="nav-collapse collapse">
+                        </a>
+
+                        <a class="brand" href="#home">J Rabbit</a>
+
+                        <div class="nav-collapse collapse" id="main-menu">
                             <ul class="nav">
-                                <li class="active"><a href="#">Home</a></li>
-                                <li><a href="#youtube">YouTube</a></li>
+                                <li class="active"><a href="#home">Home</a></li>
+                                <li><a href="#video">Video</a></li>
                                 <li><a href="#facebook">Facebook</a></li>
                             </ul>
                         </div> <!-- collapse -->
                     </div>
                 </div>
-            </div>
-
+            </div> <!-- navbar -->
+            
             <div class="container">
-                <div class="page-header">
-                    <h1>J Rabbit Fan Site</h1>
+                <div class="row">
+                    <div class="span4" id="home">
+                        <h1>J Rabbit</h1>
+                        <p class="lead">Unofficial Fansite</p>
+                    </div>
+                    <div class="span8" id="video">
+                        <h1>Video</h1>
+                        <iframe class="span8" width="560" height="315" src="http://www.youtube.com/embed/t5HlB_x_OWM" 
+                        frameborder="0" allowfullscreen></iframe>
+                    </div>
+
                 </div>
             </div> <!-- /container -->
         </div>
